@@ -1,0 +1,9 @@
+WEATHER -> this app is made with the help of html css and  javascript. first i mmade structure of this app with html and css and also i get API from openweathermap  to show weather details in my website API take time to activate 
+
+// work weather app
+
+you have to put your city name in search bar and yo have to click on  the "search" button.
+the program will show you the current temperature, humidity, wind speed
+if you put wrong city name or random text like which is not a city . this shows you  an error message.
+
+THANKS!
