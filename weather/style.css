@@ -3,7 +3,34 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.search{
+  padding : 10px 0px;
+  
+}
+.search input{
+ padding: 4px 10px;
+ border: none;
+ border-radius: 5px;
+ background-color: transparent;
+ backdrop-filter: blur(30px);
+ background-color: rgba(65, 65, 65, 0.308);
+ color: aliceblue;
+ width: 200px;
+
+}
+.search button{
+ padding: 5px 10px;
+ border: none;
+ border-radius: 5px;
+ font-size: 14px;
+background-color: transparent;
+ color: white;
+}
+
 .cardContainer {
     width: fit-content;
     position: relative;
@@ -29,17 +56,6 @@ body{
     cursor: pointer;
   }
   
-  .search input{
-    padding: 4px 10px;
-    border: none;
-    border-radius: 5px;
-  }
-  .search button{
-    padding: 4px 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-  }
 
   .city {
     font-weight: 700;
